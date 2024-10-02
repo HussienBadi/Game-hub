@@ -21,7 +21,7 @@ function App() {
   const [gameQuery, setGameQuery] = useState<GameQuery>({} as GameQuery);
 
   return <Grid templateAreas={{
-    base: `"nav" "main"`,
+    base: `"nav" "main"`, // Mobnile
     lg: `"nav nav" "aside main"` // 1024px
   }}
     templateColumns={{ // set width of columns
